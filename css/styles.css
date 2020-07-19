@@ -47,6 +47,13 @@ a:hover {
   color: #EAF6F6;
 }
 
+td {
+  padding: 10px;
+  padding-right: 0px;
+  /*text-align: top;*/
+  margin-top: 0px;
+}
+
 .top-container {
   background-color: #E4F9F5;
   position: relative;
@@ -63,9 +70,15 @@ a:hover {
 }
 
 .skill-row {
-  width: 60%;
+  width: 50%;
   margin: 100px auto 100px auto;
   text-align: left;
+}
+
+.work-row {
+  width: 40%;
+  margin: 100px auto 100px auto;
+  text-align: right;
 }
 
 .pro {
