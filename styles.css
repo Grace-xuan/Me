@@ -63,9 +63,37 @@ a:hover {
 }
 
 .skill-row {
-  width: 60%;
+  width: 50%;
   margin: 100px auto 100px auto;
   text-align: left;
+}
+
+.work-row {
+  width: 40%;
+  margin: 100px auto 100px auto;
+  text-align: right;
+}
+
+.work-row td {
+  padding: 10px;
+  padding-right: 0px;
+  margin-top: 0px;
+}
+
+.activity-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: auto;
+}
+
+.activity-row td {
+  padding: 10px;
+  text-align: left;
+}
+
+td.activity-date {
+  width: 30%;
+  text-align: right;
 }
 
 .pro {
